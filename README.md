@@ -1,15 +1,16 @@
 # Framework7 Vue + Webpack App Template
 
-A full-featured Framework7 Vue with Webpack setup with hot-reload & css extraction. Based on [Vue Webpack Boilerplate](https://github.com/vuejs-templates/webpack)
+An android app, build with cordova, framework7 template and typescript.
+The app can control a simple arduino based robot over bluetooth
 
 ## Usage
 
 ### 1. Download this repository
 ```
-git clone https://github.com/framework7io/framework7-template-vue-webpack my-app
+git clone https://github.com/smeenka/bluetooth-remote-app
 ```
 
-Repository will be downloaded into `my-app/` folder
+Repository will be downloaded into `bluetooth-remote-app/` folder
 
 ### 2. Instal dependencies
 
@@ -26,7 +27,7 @@ This will download latest version of Framework7, Framework7-Vue, Vue and require
 npm run dev
 ```
 
-App will be opened in browser at `http://localhost:8080/`
+App will be opened in browser at `http://localhost:8000/`
 
 ### 4. Build app for production
 
@@ -53,14 +54,6 @@ It will be added during the build process to Android/iOS.
 
 Just put the contents of `www` folder in your cordova's project root `www` folder
 
-## One command install
-
-```
-git clone https://github.com/framework7io/framework7-template-vue-webpack my-app &&
-cd my-app &&
-npm install &&
-npm run dev
-```
 
 ## Build Setup
 

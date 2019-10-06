@@ -54,7 +54,7 @@
 <script lang='ts'>
   import { Vue, Component } from 'vue-property-decorator'
   import { mapGetters } from 'vuex'
-  import logger from '../service/logger.ts'
+  import logger from '../services/logger.ts'
 
   @Component({ components: { /*Sidebar, Topbar, Bottombar, FacetsPane */},
   computed: mapGetters([
